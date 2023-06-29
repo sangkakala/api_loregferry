@@ -30,7 +30,7 @@ class AuthController extends Controller
         return $this->createNewToken($token);
     }
 
-    public function adalah()
+    public function datauser()
     {
         return response()->json(auth()->user());
     }
